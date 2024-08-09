@@ -8,9 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a medical student at Vanderbilt University School of Medicine. I currently conduct research on head and neck free flap management, surgical outcomes after neoadjuvant immunotherapy, surgical and patient-facing technology, and patient-centered surgical consent forms. I also volunteer as a student clinician/coordinator at [Shade Tree Free Clinic](https://www.shadetreeclinic.org/), health educator for previously incarcerated individuals, and [mentor](https://www.newschannel5.com/news/giving-them-another-path-inspiring-at-risk-youth-to-choose-a-violence-free-future) for children affected by gun violence.
+I am an undergraduate student at Johns Hopkins University majoring in Computer Science and Applied Mathematics and Statistics (Class of 2027). 
 
-I graduated from Johns Hopkins University in December 2021 with a B.A. in Biophysics and a Minor in Bioethics. At Johns Hopkins Hospital, I worked at the Wilmer Eye Institute's mobile free clinic and the [Disability Health Research Center](https://disabilityhealth.jhu.edu/). As an undergraduate student, I taught an Organic Chemistry Lab section as a teaching assistant and conducted basic science cancer research for three years at the [Institute for NanoBioTechnology](https://inbt.jhu.edu/). Additionally, I led my IRB-approved study called *Peer Influence on Vaping in High Schools* as well as two COVID-19 research projects on health website accessibility and restrictive policies in fragile Middle Eastern countries. I also volunteered in a hospice center to help provide palliative care to terminally ill children. 
+I have been doing research since high school at UMBC in the [Lab for Informatics for Human Flourishing][https://flourish.umbc.edu] to quantify the quality of mother-child interactions to create an AI assisted tool to help social worker’s attachment based intervention programs. Additionally, I am interning at NIDA’s [Technology and Translational Research Unit](https://bcurtislab.com/) where I am using Natural Language Processing techniques to analyze and describe the language used in substance use disorder (SUD) recovery-focused subreddits and applying Large Language Models to analyze how social support requests are distributed across different substances.
+
+I am also the founder and president of [Community Reads][https://ourcommunityreads.org], a 501(c)(3) non-profit that teaches kids about diversity through literature. So far we have been able to bring our lessons to 7 different schools and libraries teaching 1154 children about diversity across 70 individual lessons of 11 different books.
+
 <html>
 <head>
   <!-- Add the Font Awesome CSS link below -->
@@ -83,14 +86,7 @@ I graduated from Johns Hopkins University in December 2021 with a B.A. in Biophy
 </body>
 </html>
 
-![Vanderbilt University School of Medicine Class of 2026 photo in white coats](../images/VUSMClassPhoto.png)
-
 <br>
-During the six months before medical school, I continued working at Johns Hopkins Hospital as a research coordinator in the Department of Pediatrics. I led research projects on parents' trust in messengers of COVID-19-related information, children’s early determinants of illness, and primary care being central to improving both health equity and civic engagement. I also worked as a Postbaccalaureate fellow in NIDA’s [Technology and Translational Research Unit](https://bcurtislab.com/), where I helped leverage natural language processing (NLP) and machine learning to identify stigmatizing social media discussions about substance use. 
-
-Throughout my medical journey, I aspire to continue becoming a better person through each of my patients as well as spearheading surgical outcomes research, medical technology innovation, and advocacy for equitable healthcare and patients’ rights.
-
-
 <html>
 <head>
   <style>
@@ -117,18 +113,4 @@ Throughout my medical journey, I aspire to continue becoming a better person thr
     
   </style>
 </head>
-<body>
-  <div class="container">
-    <div class="column">
-      <!-- First image -->
-      <img src="../images/GilmanFlowers.png" alt="Tulips in front of Gilman Hall at Johns Hopkins University on a sunny day">
-      <p class="caption">Gilman Hall, Johns Hopkins University</p>
-    </div>
-    <div class="column">
-      <!-- Second image -->
-      <img src="../images/NashvilleSkyline.png" alt="Skyline of Nashville Tennessee">
-      <p class="caption">Nashville, TN</p>
-    </div>
-  </div>
-</body>
 </html>

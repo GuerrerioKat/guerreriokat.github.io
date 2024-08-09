@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<nav>
+  <ul>
+    {% for item in site.data.navigation %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}

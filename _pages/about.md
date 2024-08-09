@@ -10,9 +10,9 @@ redirect_from:
 
 I am an undergraduate student at Johns Hopkins University majoring in Computer Science and Applied Mathematics and Statistics (Class of 2027). 
 
-I have been doing research since high school at UMBC in the [Lab for Informatics for Human Flourishing][https://flourish.umbc.edu] to quantify the quality of mother-child interactions to create an AI assisted tool to help social worker’s attachment based intervention programs. Additionally, I am interning at NIDA’s [Technology and Translational Research Unit](https://bcurtislab.com/) where I am using Natural Language Processing techniques to analyze and describe the language used in substance use disorder (SUD) recovery-focused subreddits and applying Large Language Models to analyze how social support requests are distributed across different substances.
+I have been doing research since high school at UMBC in the [Lab for Informatics for Human Flourishing](https://flourish.umbc.edu) to quantify the quality of mother-child interactions to create an AI assisted tool to help social worker’s attachment based intervention programs. Additionally, I am interning at NIDA’s [Technology and Translational Research Unit](https://bcurtislab.com/) where I am using Natural Language Processing techniques to analyze and describe the language used in substance use disorder (SUD) recovery-focused subreddits and applying Large Language Models to analyze how social support requests are distributed across different substances.
 
-I am also the founder and president of [Community Reads][https://ourcommunityreads.org], a 501(c)(3) non-profit that teaches kids about diversity through literature. So far we have been able to bring our lessons to 7 different schools and libraries teaching 1154 children about diversity across 70 individual lessons of 11 different books.
+I am also the founder and president of [Community Reads](https://ourcommunityreads.org), a 501(c)(3) non-profit that teaches kids about diversity through literature. So far we have been able to bring our lessons to 7 different schools and libraries teaching 1154 children about diversity across 70 individual lessons of 11 different books.
 
 <html>
 <head>

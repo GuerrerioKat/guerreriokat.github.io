@@ -69,17 +69,16 @@ I am also the founder and president of [Community Reads][https://ourcommunityrea
   <div class="container">
     <div class="column1">
       <h2>Education</h2>
-      <p class="grad-info"><i class="fas fa-graduation-cap" aria-hidden="true"></i> <b>Johns Hopkins University</b><br><i>B.A. Biophysics, Bioethics Minor - 2021</i></p>
-      <p class="grad-info"><i class="fas fa-graduation-cap" aria-hidden="true"></i> <b>Vanderbilt University School of Medicine</b><br><i>Doctor of Medicine - Expected 2026</i></p>
+      <p class="grad-info"><i class="fas fa-graduation-cap" aria-hidden="true"></i> <b>Johns Hopkins University</b><br><i>B.S. Computer Science, Applied Mathematics and Statistics- Expected 2027</i></p>
     </div>
     <div class="column2">
       <h2>Interests</h2>
       <ul>
-        <li>Biomedical Ethics</li>
-        <li>Head and Neck Cancer</li>
-        <li>Health Equity</li>
-        <li>Medical Technology</li>
-        <li>Surgical Outcomes</li>
+        <li>Behavioral Data Science</li>
+        <li>Human-AI Interaction</li>
+        <li>Big Data Analytics</li>
+        <li>Personalized Health Interventions</li>
+        <li>Causal Inferences in AI</li>
       </ul>
     </div>
   </div>

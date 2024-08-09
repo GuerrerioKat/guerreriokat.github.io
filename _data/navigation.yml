@@ -2,15 +2,15 @@
 main:
   - title: "Publications"
     url: /publications/
-    
-  - title: "Conference Activity"
-    url: /talks/   
-    
-  - title: "Talk Map"
-    url: /talkmap.html
 
-  - title: "Popular Works"
-    url: /popularworks/    
+  - title: "Projects"
+    url: /projects/   
+    
+  #- title: "Conference Activity"
+  #  url: /talks/   
+    
+  #- title: "Talk Map"
+  #  url: /talkmap.html
     
   - title: "CV"
     url: /cv/

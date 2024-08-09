@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Katherine M. Guerrerio"
 title_separator          : "-"
-name                     : &name "Katherine M. Guerrerio :P"
+name                     : &name "Katherine M. Guerrerio"
 description              : &description "personal description"
 url                      : https://guerreriokat.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

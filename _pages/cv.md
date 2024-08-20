@@ -1,8 +1,14 @@
 ---
 layout: archive
 title: "CV"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
 permalink: /cv/
-author_profile: false
+author_profile: true
+toc: true
 redirect_from:
   - /resume
 ---
@@ -10,10 +16,28 @@ redirect_from:
 
 ## Education
 
-* Johns Hopkins University, B.S. in Computer Science and Applied Mathematics and Satistics, Aug 2023-May 2027 (expected)
-* Roland Park Country School, August 2019-June 2023
+* Johns Hopkins University, B.A. in Biophysics and Minor in Bioethics, Aug 2018-Dec 2021
+* Vanderbilt University School of Medicine, M.D., July 2022-May 2026 (expected)
 
-## Research Experiences
+## Clinical Research
+
+* April 2023-Present: **Clinical Trial Coordinator and [Student Researcher](https://www.vumc.org/vcrg/person/daniel-habib)**
+  * Section of Surgical Sciences, Vanderbilt University Medical Center
+  * Mentor: Aimal Khan, MD
+* Nov 2022-Present: **Student Researcher**
+  * Surgical Analytics Lab and Surgical Ethics Program, Vanderbilt University Medical Center
+  * Mentor: Alexander Langerman, MD, SM
+* Jan 2022-July 2022: **Research Program Coordinator**
+  * Department of Pediatrics, Johns Hopkins Medicine
+  * Mentor: Sara Johnson, PhD, MPH
+* Sep 2020-Dec 2021: **Student Researcher**
+  * Neuro-Oncology Surgical Outcomes Lab, Johns Hopkins Medicine
+  * Mentor: Debraj Mukherjee, MD, MPH
+* Oct 2018-Jan 2020: **Research Assistant**
+  * Wilmer Eye Institute, Johns Hopkins Medicine
+  * Mentor: Bonnielin Swenor, PhD, MPH
+
+## Cancer Wet Lab
 
 * Jan 2019-Dec 2021: **Student Researcher**
   * Institute for NanoBioTechnology, Johns Hopkins University
@@ -22,8 +46,25 @@ redirect_from:
   * Fralin Biomedical Research Institute, Virginia Tech Carilion
   * Mentor: Samy Lamouille, PhD
 
+## Addiction Research
 
-<!-- ## Community Service
+* Jan 2022-July 2022 & Summer 2021: **Postbaccalaureate Fellow and Summer Intern**
+  * [Technology and Translational Research Unit](https://bcurtislab.com/team/), National Institute on Drug Abuse
+  * Mentor: Brenda Curtis, PhD, MsPH
+* June 2020-July 2022: **Student Investigator**
+  * Johns Hopkins University
+  * Mentor: Andrew Cherlin, PhD
+
+## COVID-19 Research
+
+* Mar 2021-May 2022: **Research Assistant**
+  * Disability Health Research Center, Johns Hopkins University
+  * Mentor: Bonnielin Swenor, PhD, MPH
+* June 2020-Jan 2021: **Student Researcher**
+  * CoronaNet
+  * Mentor: Robert Kubinec, PhD
+
+## Community Service
 
 * Jan 2024-Present: **Student Mentor**, Future is NOW (Non-violent Options Win) Nashville – Future Healers Network
 * Jan 2024-Present: **Health Educator**, Vanderbilt University School of Medicine Social Mission Committee
@@ -31,7 +72,6 @@ redirect_from:
 * Jan 2021-July 2022: **Community Health Design and Social Innovation Intern**, Johns Hopkins Sibley Memorial Hospital
 * Dec 2019-Feb 2020: **Hospice Volunteer**, Gilchrist Hospice Center
 * June 2015-Aug 2019: **Hospital Volunteer**, LewisGale Medical Center
--->
 
 ## Leadership
 
@@ -40,13 +80,12 @@ redirect_from:
 * Jan 2020-Dec 2021: **Teaching Assistant**, Johns Hopkins University Organic Chemistry Lab
 * June 2018-Aug 2019: **Tennis Instructor**, North Cross School
 
-<!-- ## Relevant Undergraduate Clubs
+## Medically Relevant Undergraduate Clubs
 
 * Sep 2019-Dec 2021: **Medical Ethics Discussion Leader**, Johns Hopkins University Medical Ethics Discussion Panel
 * Sep 2019-Dec 2021: **Head of Medical Humanities Section**, Johns Hopkins University Hippocrates Medical Review
--->
 
-## Honors and Awards
+## Honors, Awards, and Grants
 
 * 2022: National Institute on Drug Abuse Featured Paper of the Month ([October](https://irp.drugabuse.gov/featured-paper-october-2022/)) 
 * 2022: PanHellenic Scholarship Foundation Award ($2,500)
@@ -78,13 +117,22 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<!-- ## Conference Activity
+## Conference Activity
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
--->
 
-## Presentations
+## Popular Works
+<ul>{% for post in site.popularworks reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+## Undergraduate Journal Articles
+
+* **Habib D**. Computational analysis on the relationship between state political party dominance and lack of health insurance. *Hopkins Undergraduate Research Journal*. 2020:44-46.
+* **Habib D**. An act divided: America’s uninsured. *The Cornell Healthcare Review*. 2019:23-24.
+
+## Undergraduate Presentations
 
 * **Habib D**. Exposure to people who use drugs influences perceptions about drug-related stigma. [Poster](https://drive.google.com/file/d/1LLG5mzLwjDQIfKL6LC1vxS9F9NDN2AGp/view?usp=sharing) presented at: National Institutes of Health Postbac Poster Day; May 20, 2022; Virtual.
 * **Habib D**. Personal encounters and subjective experience: Drug-related stigma perception on social media. Oral presentation at: National Institute on Drug Abuse Research Day; May 18, 2022; Virtual.

@@ -63,7 +63,7 @@ window.SITE = {
       authors: "Haojun Shi, Suyu Ye, <me>Katherine M. Guerrerio</me>, Jianzhi Shen, Yifan Yin, Daniel Khashabi, Chien-Ming Huang, Tianmin Shu",
       venue: "IEEE International Conference on Robotics and Automation", short: "ICRA 2027", year: "Under review",
       links: [{ label: "arXiv", href: "https://arxiv.org/abs/2602.19304" }, { label: "Project", href: "https://scai.cs.jhu.edu/projects/CaPE" }] },
-    { key: "hri", fig: "",
+    { key: "hri", fig: "hri.jpg",
       title: "Sync or Sink: Conversational Pace Matching for Human-Robot Collaboration",
       authors: "Yifan Yin*, Binze Li*, Shiye Cao*, <me>Katherine Guerrerio</me>, Seokhyun Baek, Tianmin Shu, Chien-Ming Huang",
       venue: "ACM/IEEE International Conference on Human-Robot Interaction", short: "HRI 2027", year: "Under review", links: [] },

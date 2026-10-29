@@ -13,17 +13,17 @@ window.SITE = {
 
   bio: [
     `I'm a senior at <a href="https://www.jhu.edu">Johns Hopkins University</a> majoring in Computer Science and Applied Mathematics &amp; Statistics, and I'm continuing into the combined BS/MSE program in Computer Science (AI track). I work with <a href="https://www.cs.jhu.edu/~vandurme/">Benjamin Van Durme</a> in BLab and with <a href="https://www.tshu.io">Tianmin Shu</a> in the Social Cognitive AI Lab, with support from a Joseph C. Pistritto Research Fellowship.`,
-    `My research focuses on interpretable multimodal reasoning. I'm interested in models that work with video, images, and text and can show how they reached an answer: what evidence they used, how confident they are, and whether their explanation matches what they actually did. I also study how AI systems can understand people's behavior well enough to interact with them naturally.`
+    `My research focuses on interpretable, evidence-centered multimodal reasoning. I want models that work over video, speech, and text to explain not only what they conclude but why the evidence warrants it, to recognize when information is missing, and to work with people without losing faithfulness to the evidence.`
   ],
 
   umbrella: {
     title: "Interpretable Multimodal Reasoning",
-    text: "I study how multimodal models can produce reasoning traces that are grounded in evidence and calibrated in their confidence, not through post-hoc explanations but through the reasoning process itself. My work centers on three properties of those traces:"
+    text: "Multimodal models can now turn video, speech, and text into fluent accounts of events, but a convincing account is not necessarily a trustworthy one. A model can answer correctly without finding the observation that supports it, cite a relevant clip that doesn't prove its claim, or keep speaking confidently when the record is incomplete. I want to build evidence-centered multimodal models that can explain not only what they conclude, but why the available evidence warrants that conclusion. Three connected capabilities organize my work:"
   },
   pillars: [
-    { title: "Grounding", icon: "fa-solid fa-crosshairs", text: "Referencing the right evidence in the input.", points: ["Fine-grained grounding: finding the specific segment or sentence to cite", "Multimodal article generation: including images and clips from a video in a written article"] },
-    { title: "Calibration", icon: "fa-solid fa-gauge-high", text: "Expressed confidence that tracks actual accuracy.", points: ["Internal calibration: the model's internal confidence matches its accuracy at each step", "Final-answer confidence: estimating how reliable an answer is from the evidence"] },
-    { title: "Faithfulness", icon: "fa-solid fa-route", text: "Explanations that reflect the computation that actually produced the output.", points: ["Explaining how the model arrived at its answer", "Full reasoning traces, including failed explorations"] }
+    { title: "Faithful grounding", icon: "fa-solid fa-crosshairs", text: "Establishing whether a claim is supported by sufficient, inspectable evidence.", points: ["Verifying conclusions against the specific clips, frames, or passages that support them", "Incorporating contradictory information across sources and over time"] },
+    { title: "Calibrated reasoning", icon: "fa-solid fa-gauge-high", text: "Recognizing when information is missing and deciding what to do about it.", points: ["Deciding whether to reason further, retrieve more evidence, or abstain", "Confidence that reflects how complete the evidence actually is"] },
+    { title: "Reliable human collaboration", icon: "fa-solid fa-handshake", text: "Adapting to a human partner while keeping the account faithful to evidence.", points: ["Letting people refine an investigation through their feedback", "Guarding against unsupported assumptions introduced along the way"] }
   ],
 
   human: {

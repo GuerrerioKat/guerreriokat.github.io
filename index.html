@@ -260,7 +260,7 @@
       <div>
         <h3>${p.title}</h3>
         <p class="authors">${fmtAuthors(p.authors)}</p>
-        <div class="venue">${p.venue}${review ? " (under review)" : ", " + p.year}</div>
+        <div class="venue">${p.venue}${review ? " (under review)" : ", " + p.year}${p.note ? ` &middot; ${p.note}` : ""}</div>
         <div class="row">
           ${p.links.map(l => `<a class="btn" href="${l.href}">${l.label}</a>`).join("")}
           ${p.oral ? `<span class="oral"><i class="fa-solid fa-microphone"></i> Oral presentation</span>` : ""}

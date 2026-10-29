@@ -34,6 +34,7 @@ window.SITE = {
 
   // News: internships and positions from summer 2024 on, awards, talks, and papers.
   news: [
+    { date: "Oct 2026", text: `<a href="#pub-rss">CaPE</a> is accepted at the LEAP Workshop @ <b>CoRL 2026</b>.` },
     { date: "Jul 2026", text: `<a href="#pub-magmar2026">MARQUIS</a> is accepted at the MAGMaR Workshop @ ACL 2026 as an <b>oral presentation</b>.` },
     { date: "Jun 2026", text: `Started the SCALE 2026 summer research program at the JHU HLTCOE.` },
     { date: "Feb 2026", text: `New preprint: <a href="#pub-rss">CaPE</a>, code as a path editor for grounding language communication in multi-agent cooperation.` },
@@ -58,15 +59,15 @@ window.SITE = {
       title: "HYDRA: A Hierarchical Dataset for Multi-Video Question Answering",
       authors: "<me>Katherine Guerrerio*</me>, Alexander Martin*, Tyler Skow, Pengyu Yan, Mahesh Bhosale, Debashish Chakraborty, Dengjia Zhang, Hanxiang Qin, Naren Sivakumar, Kiera McCormick, Sourajit Saha, Reihaneh Iranmanesh, Hannah Recknor, Tejas Gokhale, Benjamin Van Durme, William Walden, Reno Kriz",
       venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition", short: "CVPR 2027", year: "Under review", links: [] },
-    { key: "rss", fig: "rss.jpg",
-      title: "CaPE: Code as Path Editor for Grounding Language Communication in Multi-Agent Cooperation",
-      authors: "Haojun Shi, Suyu Ye, <me>Katherine M. Guerrerio</me>, Jianzhi Shen, Yifan Yin, Daniel Khashabi, Chien-Ming Huang, Tianmin Shu",
-      venue: "IEEE International Conference on Robotics and Automation", short: "ICRA 2027", year: "Under review",
-      links: [{ label: "arXiv", href: "https://arxiv.org/abs/2602.19304" }, { label: "Project", href: "https://scai.cs.jhu.edu/projects/CaPE" }] },
     { key: "hri", fig: "hri.jpg",
       title: "Sync or Sink: Conversational Pace Matching for Human-Robot Collaboration",
       authors: "Yifan Yin*, Binze Li*, Shiye Cao*, <me>Katherine Guerrerio</me>, Seokhyun Baek, Tianmin Shu, Chien-Ming Huang",
       venue: "ACM/IEEE International Conference on Human-Robot Interaction", short: "HRI 2027", year: "Under review", links: [] },
+    { key: "rss", fig: "rss.jpg",
+      title: "CaPE: Code as Path Editor for Grounding Language Communication in Multi-Agent Cooperation",
+      authors: "Haojun Shi, Suyu Ye, <me>Katherine M. Guerrerio</me>, Jianzhi Shen, Yifan Yin, Daniel Khashabi, Chien-Ming Huang, Tianmin Shu",
+      venue: "LEAP Workshop at CoRL", short: "CoRL LEAP", year: "2026", note: "Also under review at ICRA 2027",
+      links: [{ label: "arXiv", href: "https://arxiv.org/abs/2602.19304" }, { label: "Project", href: "https://scai.cs.jhu.edu/projects/CaPE" }] },
     { key: "magmar2026", fig: "magmar2026.jpg",
       title: "MARQUIS: A Three-Stage Pipeline for Video Retrieval-Augmented Generation",
       authors: "Debashish Chakraborty, Dengjia Zhang, Jialiang Jin, <me>Katherine Guerrerio*</me>, Hanting Liu, Hanxiang Qin, Tyler Skow, Alexander Martin, Reno Kriz, Benjamin Van Durme",

@@ -100,7 +100,8 @@
   .thumb:not(.empty):hover img { transform: scale(1.03); }
   .thumb.empty { background: var(--side); cursor: default; color: var(--muted); font-size: 13px; text-align: center; }
   .thumb.empty i { display: block; font-size: 22px; margin-bottom: 6px; color: var(--accent); opacity: .6; }
-  .badge { position: absolute; top: 8px; left: 8px; background: var(--brand); color: var(--bg); font-weight: 700; font-size: 11.5px; padding: 2px 8px; border-radius: 5px; }
+  .badges { position: absolute; top: 8px; left: 8px; right: 8px; display: flex; flex-wrap: wrap; gap: 5px; z-index: 1; }
+  .badge { background: var(--brand); color: var(--bg); font-weight: 700; font-size: 11.5px; padding: 2px 8px; border-radius: 5px; }
   .badge.review { background: var(--chip); color: var(--brand); border: 1px solid var(--rule); }
   .pub h3 { font-size: 17px; font-weight: 700; line-height: 1.4; margin: 0 0 4px; }
   .authors { font-size: 15px; color: var(--muted); margin: 0 0 4px; }
@@ -252,7 +253,8 @@
 
   render("pubs", S.publications, p => {
     const review = p.year === "Under review";
-    const badge = `<span class="badge ${review ? "review" : ""}">${p.short}${review ? "" : " " + p.year}</span>`;
+    const tags = p.badges || [{ text: p.short + (review ? "" : " " + p.year), review }];
+    const badge = `<div class="badges">${tags.map(b => `<span class="badge ${b.review ? "review" : ""}">${b.text}</span>`).join("")}</div>`;
     const thumb = p.fig
       ? `<div class="thumb" onclick="openFig('${p.fig}', '${p.key}')">${badge}<img src="/assets/home/figs/${p.fig}" alt="Main figure from ${p.title.replace(/"/g, "&quot;")}" loading="lazy"></div>`
       : `<div class="thumb empty">${badge}<span><i class="fa-regular fa-image"></i>Figure coming soon</span></div>`;
@@ -260,7 +262,7 @@
       <div>
         <h3>${p.title}</h3>
         <p class="authors">${fmtAuthors(p.authors)}</p>
-        <div class="venue">${p.venue}${review ? " (under review)" : ", " + p.year}${p.note ? ` &middot; ${p.note}` : ""}</div>
+        <div class="venue">${p.venue}${review ? " (under review)" : ", " + p.year}</div>
         <div class="row">
           ${p.links.map(l => `<a class="btn" href="${l.href}">${l.label}</a>`).join("")}
           ${p.oral ? `<span class="oral"><i class="fa-solid fa-microphone"></i> Oral presentation</span>` : ""}
